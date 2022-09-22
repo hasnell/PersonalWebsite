@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Hailey's Portfolio</title>
 </head>
 <body>
+
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
      <div class="container">
         <a href="#" class="navbar-brand">Hailey's Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -27,46 +30,311 @@
                     <a href="#about" class="nav-link">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#work" class="nav-link">Work</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#goals" class="nav-link">Goals</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Me</a>
                 </li>
             </ul>
         </div>
      </div>
     </nav>
 
-    <!-- Showcase -->
+    <!-- Intro to about me -->
+    <section id="home" class="bg-dark text-light p-1">
+        <div class="row text-center">
+                <h3 class="mb-3 mb-xl-0">About Me</h3>
+                <!-- Button for sign up at 29:14 -->
+            
+        </div>
+    </section>
 
-    <!--<section class="bg-dark text-light p-5 text-center">-->
+    <!-- Showcase -->
     <section class="text-dark p-5 text-center" style="background:url(Pictures/bg8.jpg); background-size:cover">
         <div class="container">
-            <div class="d-xl-flex align-items-center justify-content-between">
                 <img class="img-fluid" style="border-radius: 500px; max-width: 25%;" src="Pictures/ME.jpg" alt="">
                 <div>
                     <h1 class="py-5">Up and coming <span class="text-info">Software Engineer</span></h1>
                     <p class="lead px-4">
-                        <b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                          pariatur. Excepteur sint occaecat cupidatat non proident,
-                         sunt in culpa qui officia deserunt mollit anim id est laborum."</b>
+                        <b>
+                            My name is Hailey Snell and I am a full stack software developer at Revature. I've always had a deep love for coding and problem solving
+                            which began as small challenges on various coding practice websites with friends and grew into getting a degree in Computer 
+                            Science from the University of South Carolina. The first language I learned to use was Visual Basic, and I personally feel as though it was 
+                            a very intuitive and straightforward language that anyone could use to get into programming. From there, I started to learn Python and Java 
+                            on my own, and I would practice algorithm design using websites such as CodeWars.com which I still use to this day. In university, I was 
+                            introduced to C++ as well as some other less common languages such as Prolog and Haskell. 
+
+                        </b>
+                    </p>
+                    <p class="lead px-4">
+                        <b>
+                            Since then, working at Revature has taken my skills to the next level as I have since been introduced to and become proficient in C#, SQL, 
+                            HTML, and Angular. University mainly focused on back-end programming, which made the experience here at Revature all the more valuable to 
+                            create entire applications, and not just the logic behind them. Revature has also allowed for much more experience working as a team, and 
+                            has taught me how to solve the problems that come with having multiple people working on the same project. Not only that, but it has also 
+                            taught me to enjoy the process of coming together with other like minded individuals to create something great. Here you can find more
+                            info on my journey so far!
+                        </b>
                     </p>
                 </div>
-                
-            </div>
         </div>
     </section>
 
     <!-- Intro to about me -->
-    <section class="bg-dark text-light p-5">
+    <section id="about" class="bg-dark text-light p-5">
+        <div class="row text-center">
+                <h3 class="mb-3 mb-xl-0">About Me</h3>
+                <!-- Button for sign up at 29:14 -->
+            
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="text-dark p-5" style="background:url(Pictures/hs.jpg); background-size:cover">
         <div class="container">
-            <div class="d-xl-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-xl-0">Test Text</h3>
+            <div class="row text-center">
+                <div class="col-md my-5">
+                    <div class="card bg-dark text-light">
+                        <img class="img-fluid mx-auto d-block my-3" style="border-radius: 500px; max-width: 25%;" src="Pictures/gc.jpg" alt="">
+                        <h3 class="card-title mb-3">
+                            Education
+                        </h3>
+                        <p class="card-text mb-3 mx-3">
+                            - University of South Carolina
+                        </p>
+                        <p class="card-text mb-3 mx-3">
+                            - BS of Computer Science
+                        </p>
+                        <p class="card-text mb-3 mx-3">
+                            - Graduated May 2022
+                        </p>
+                        <p class="card-text mb-3 mx-3">
+                            - 3.5 GPA
+                        </p>
+                        <p class="card-text mb-3 mx-3">
+                            <a href="https://sc.edu">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md my-5">
+                    <div class="card bg-dark text-light text-center">
+                        <img class="img-fluid mx-auto d-block my-3" style="border-radius: 500px; max-width: 25%;" src="Pictures/rev-logo-2.png" alt="">
+                        
+                        <h3 class="card-title my-3">
+                            Work
+                        </h3>
+                        <p class="card-text mb-3 mx-3">
+                            - Active Employee Since August 15, 2022
+                        </p>
+                        <p class="card-text mb-3 mx-3">
+                            <a href="https://revature.com/">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro to Projects -->
+    <section id="projects" class="bg-dark text-light p-5">
+        <div class="row text-center">
+                <h3 class="mb-3 mb-xl-0">My Projects</h3>
+            
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="text-dark p-5" style="background:url(Pictures/wp4.jpg); background-size:cover">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md my-5">
+                    <div class="card bg-dark text-light">
+                        <img class="img-fluid mx-auto d-block my-3" style="max-width: 25%;" src="Pictures/p1.png" alt="">
+                        <h3 class="card-title mb-3">
+                            Banking Console App
+                        </h3>
+                        <p class="card-text mb-3 mx-3">
+                            My first project since starting training at Revature was a console banking app built in C#. 
+                            This application allowed a user to login with credentials cross checked in SQL. From there users
+                            could do anything you could do at a real ATM including depositing and withdrawing. The application
+                            also supports admin users with a different list of options upon login.
+                        </p>
+                        <p>
+                            <a href="https://github.com/hasnell/BankingApp">Github Repo</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md my-5">
+                    <div class="card bg-dark text-light text-center">
+                        <img class="img-fluid mx-auto d-block mt-3" style="max-width: 25%;" src="Pictures/lib.png" alt="">
+                        
+                        <h3 class="card-title my-3">
+                            Library Website
+                        </h3>
+                        <p class="card-text mb-3 mx-3">
+                            My second project at Revature was to use SQL, ASP.net, and HTML to create a website. My group and I decided on making a library website
+                            and got to work. I was in charge of creating the SQL database and making the user login work. I also made it possible for users to login 
+                            using google and proceeded to teach the rest of our cohort how to do the same.
+                        </p>
+                        <p>
+                            <a href="https://github.com/hasnell/LibraryProject">Github Repo</a>
+                        </p>
+                        <p>
+                            <a href="https://revaturelibrary.azurewebsites.net/">Link to Website</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro to Goals -->
+    <section id="goals" class="bg-dark text-light p-5">
+        <div class="row text-center">
+                <h3 class="mb-3 mb-xl-0">My Goals</h3>
+        </div>
+    </section>
+
+    <!-- Goals -->
+    <section class="text-dark p-5" style="background:url(Pictures/cs.webp); background-size:cover">
+        <div class="container">
+            <div class="row text-center">
+                <div class="my-5">
+                    <div class="card bg-dark text-light mx-auto" style="width: 25rem;">
+                        <img class="img-fluid mx-auto d-block my-3" style="border-radius: 500px; max-width: 25%;" src="Pictures/sec.jpg" alt="">
+                        <h3 class="card-title mb-3">
+                            Security
+                        </h3>
+                        <p class="card-text mb-3 mx-3">
+                            Another career path I considered persuing was mechanical engineering. Something that was shared very early on when exploring
+                            mechanical engineering was that if I were to be assigned to build a bridge and a fault occurs because of
+                            my miscalculations, the blame is entirely on me and it's taken very seriously. That concept has since carried over to software development
+                            for me, in that if I write a program and users trust that program is secure, if any sort of data breach happens, the fault is mine. Because of this,
+                            I strive to create secure code and stay up to date on all the security news regarding the development tools that I use.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <div class="card bg-dark text-light mx-auto" style="width: 25rem;">
+                        <img class="img-fluid mx-auto d-block my-3" style="border-radius: 500px; max-width: 25%;" src="Pictures/vis.jpg" alt="">
+                        
+                        <h3 class="card-title my-3">
+                            Software
+                        </h3>
+                        <p class="card-text mb-3 mx-3">
+                            As my first job, I worked for my local city doing GIS (Geographic Information Systems).
+                            In this job, I used a lot of software, but the main one was always ArcGIS. ArcGIS is a huge
+                            software developed by a company called ESRI. My boss at the time would allow me to take some
+                            "break days" to do some research on how the software was made. I learned that being an enterprise
+                            software, ArcGIS uses docker, kubernetes, and a lot of java. Since then, I've dreamed of working
+                            on a software of similar scale. Percet for me, it seems everything I'm learning at Revature is leading me
+                            in that direction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro to Gallery -->
+    <section id="gallery" class="bg-dark text-light p-5">
+        <div class="row text-center">
+                <h3 class="mb-3 mb-xl-0">Photo Gallery</h3>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="text-dark p-5 text-center" style="background:url(Pictures/BG7.webp); background-size:cover">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <img class="img-fluid mx-auto mt-5" style="border-radius: 500px; max-width: 50%;" src="Pictures/gal1.png" alt="">
+                    <p><b>Graduation 2022</b></p>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid mx-auto mt-5" style="border-radius: 500px; max-width: 40%;" src="Pictures/gal3.png" alt="">
+                    <p><b>Chillin'</b></p>
+                </div>
+            </div>
+            <div class="row text-center pt-5">
+                <div class="col-md">
+                    <img class="img-fluid mx-auto mt-5" style="border-radius: 500px; max-width: 40%;" src="Pictures/hol.png" alt="">
+                    <p><b>The Best Book Ever</b></p>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid mx-auto mt-5" style="border-radius: 500px; max-width: 50%;" src="Pictures/gal2.png" alt="">
+                    <p><b>Downtown Charlotte, NC</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Intro to Contact Me -->
+    <section id="contact" class="bg-dark text-light p-5">
+        <div class="row text-center">
+                <h3 class="mb-3 mb-xl-0">Contact Me</h3>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="text-light p-5 text-center" style="background:url(Pictures/WP2.jpg); background-size:cover">
+        <div class="container">
+            <div class="card bg-dark mx-auto" style="max-width: 30rem;">
+                <h1 class="my-3 px-5 pt-2"> Useful Links: </h1>
+                <h3 class="my-3 px-5 text-primary"> <a href="https://www.linkedin.com/in/hailey-snell-3b767823a/"> LinkedIn </a></h3>
+                <h3 class="my-3 px-5 pb-3 text-primary"> <a href="https://github.com/hasnell"> Github </a></h3>
+            </div>
+            
+            
+            <div class="card bg-dark mt-5">
+                <h1 class="px-5 pt-4"> Shoot me an email: </h1>
+                <form action="https://formsubmit.co/hailey.a.snell@gmail.com" method="POST">
+                    <!--<input type="hidden" name="_next" value="https://HaileySnellPortfolio.com/thanks.html">-->
+                    <div class="row my-3 px-5">
+                        <input type="email" name="email" placeholder="Your Email Address" style="width:400px" required>
+                    </div>
+                    <div class="row my-3 px-5">
+                        <textarea rows="9" type="text" name="message" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <div class="row my-3 px-5">
+                        <button type="submit" class="btn btn-primary" style="width:150px"><i class="bi bi-chevron-right"></i> Send Email </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyASgQ_Gp0pl5Q7h7Li-d2uiPEhdZH7DQ-I",
+          authDomain: "portfolio-6ac8f.firebaseapp.com",
+          projectId: "portfolio-6ac8f",
+          storageBucket: "portfolio-6ac8f.appspot.com",
+          messagingSenderId: "679514626657",
+          appId: "1:679514626657:web:26013c0ad18026239c2820",
+          measurementId: "G-D7HBEDH0C2"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
