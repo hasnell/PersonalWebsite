@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Hailey's Portfolio</title>
+    <script>
+        $(document).ready(() => {
+            let $navlinks = $('.nav-link').not('.dropdown-toggle');
+            // console.log($navlinks)
+            $navlinks.click((e) => {
+                $(e.target).closest('.navbar').find('.navbar-collapse').collapse('toggle')
+            })
+        })
+    </script>
 </head>
 <body>
 
@@ -21,10 +30,10 @@
         data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navmenu">
+        <div class="collapse navbar-collapse" id="navmenu" >
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link" >Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#about" class="nav-link">About Me</a>
@@ -46,6 +55,9 @@
      </div>
     </nav>
 
+    
+    
+
     <!-- Intro to about me -->
     <section id="home" class="bg-dark text-light p-1">
         <div class="row text-center">
@@ -60,7 +72,7 @@
         <div class="container">
                 <img class="img-fluid" style="border-radius: 500px; max-width: 25%;" src="Pictures/ME.jpg" alt="">
                 <div>
-                    <h1 class="py-5">Up and coming <span class="text-primary">Software Engineer</span></h1>
+                    <h1 class="py-5">Up and coming <span class="text-primary">Full Stack Software Developer</span></h1>
                     <p class="lead px-4">
                         <b>
                             My name is Hailey Snell and I am a full stack software developer at Revature. I've always had a deep love for coding and problem solving
@@ -329,7 +341,7 @@
             <div class="card bg-dark mt-5">
                 <h1 class="px-5 pt-4"> Shoot me an email: </h1>
                 <form action="https://formsubmit.co/hailey.a.snell@gmail.com" method="POST">
-                    <!--<input type="hidden" name="_next" value="https://HaileySnellPortfolio.com/thanks.html">-->
+                    <input type="hidden" name="_next" value="https://HaileySnellPortfolio.com/thanks.html">
                     <div class="row my-3 px-5">
                         <input type="email" name="email" placeholder="Your Email Address" style="width:400px" required>
                     </div>
